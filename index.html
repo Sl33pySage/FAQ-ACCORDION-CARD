@@ -28,9 +28,16 @@
     <div class="row">
       <div class="col" id="imgsection">
         <div class="card">
-          <img src="./images/illustration-woman-online-desktop.svg" id="womandesktop" alt="">
-          <img src="./images/illustration-box-desktop.svg" id="boxicon" alt="">
+          <picture class="desktoppic">
+            <source media="(min-width: 47em)" srcset="images/illustration-woman-online-desktop.svg">
+
+            <img src="./images/illustration-woman-online-desktop.svg" id="womandesktop" alt="">
+          </picture>
+          <div class="boxpic">
+            <img src="./images/illustration-box-desktop.svg" id="boxicon" alt="">
+          </div>
         </div>
+
       </div>
 
       <div class="col" id="faqsection">

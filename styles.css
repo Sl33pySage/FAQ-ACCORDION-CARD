@@ -48,31 +48,49 @@ div .display-5 {
 
 .card {
     background: transparent;
-    /* overflow: hidden; */
-    width: 110%;
-    max-width: 400px;
-    transform: translate(-25%);
+    overflow: hidden;
+    /* width: 110%; */
+    /* max-width: 400px; */
+    transform: translate(-14%);
     align-self: center;
     border: none;
     display: flow-root;
+    
 }
 
-.card #boxicon {
-    width: 50%;
-    left: -32px;
-    max-width: 200px;
+.card .boxpic {
+    display: none;
+}
+
+.boxpic {
+    display: block !important;
+    top: 50%;
     position: absolute;
-    bottom: 20px;
-    z-index: 1;
+    left: 0;
+    transform: translate(-12%, -22%);
 }
 
-.card #womandesktop {
-    z-index: 0;
+.boxpic img {
+    /* max-width: 70%; */
+    
 }
 
-#imgsection {
+#womandesktop {
+    position: static;
+}
+
+.desktoppic {
     overflow: hidden;
 }
+
+.card picture {
+    flex: 1;
+}
+
+
+/* #imgsection {
+    overflow: hidden;
+} */
 
 .attribution {
     font-size: 11px;
