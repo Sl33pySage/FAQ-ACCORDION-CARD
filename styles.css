@@ -88,7 +88,13 @@ div .display-5 {
     display: flow-root;
     
 }
-
+#imgsection {
+    background: url(./images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -75px;
+    background-position-y: -94px;
+}
 
 .card .boxpic {
     display: none;
